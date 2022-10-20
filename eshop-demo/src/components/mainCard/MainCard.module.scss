@@ -1,0 +1,19 @@
+@use '../../styles/mixins';
+
+.card{
+    @include mixins.flexing(column, start, center);
+    padding: 10px;
+    border: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid black;
+    height: 600px;
+    width: 300px;
+    img{
+        height: 100px;
+    }
+    h5{
+        text-align: center;;
+    }
+}
