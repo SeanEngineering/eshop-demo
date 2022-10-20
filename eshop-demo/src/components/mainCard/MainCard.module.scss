@@ -8,12 +8,19 @@
     border-radius: 10px;
     background-color: #fff;
     border: 2px solid black;
-    height: 600px;
+    height: 300px;
     width: 300px;
     img{
         height: 100px;
     }
     h5{
         text-align: center;;
+    }
+    &__desc{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 10px;
+        height: 40px;
+        overflow: hidden;
     }
 }

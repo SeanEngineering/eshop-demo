@@ -7,7 +7,10 @@ const MainCard = ({title, price, description, category, image}) => {
             <img src={image} alt="" />
             <h5>{title}</h5>
             <div>${price} AUD</div>
+            <br />
             <div>{category}</div>
+            <br />
+            <div className={style.card__desc}>{description}</div>
         </div>
     );
 };
